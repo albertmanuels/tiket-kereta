@@ -15,28 +15,29 @@ main {
 
 .login-card {
     width: 600px;
-    height: 500px;
+    height: 560px;
     border-radius: 30px;
     border: none;
     box-shadow: 3px 2px 5px 1px gray;
     background-color: white;
 }
 
-.img-side {
+.img-side-section {
     width: 30%;
-    height: 500px;
+    height: auto
 }
 
-.img-side img {
+.img-side-section img {
+    height: 100%;
     border-radius: 30px 0 0 30px;
 }
 
-.login-section {
+.register-section {
     width: 70%;
     height: 100%;
 }
 
-.login-form {
+.register-form {
     width: 70%;
 }
 
@@ -44,14 +45,14 @@ main {
     font-weight: 600;
 }
 
-.input-nama, .input-password {
+.input {
     border: none;
     border-bottom: 1px solid gray;
     padding-left: 10px;
     padding-bottom: 5px;
+    margin-bottom: 30px;
 }
 
-.input-nama:focus, 
-.input-password:focus {
+.input:focus {
     outline: none;
 }

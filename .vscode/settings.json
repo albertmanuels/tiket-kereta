@@ -3,5 +3,6 @@
     "cSpell.customFolderDictionaries": [
     
     ],
-    "cSpell.enabled": false
+    "cSpell.enabled": false,
+    "liveServer.settings.port": 5501
 }

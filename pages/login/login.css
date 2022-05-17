@@ -44,14 +44,14 @@ main {
     font-weight: 600;
 }
 
-.input-nama, .input-password {
+.input {
     border: none;
     border-bottom: 1px solid gray;
     padding-left: 10px;
     padding-bottom: 5px;
+    margin-bottom: 30px;
 }
 
-.input-nama:focus, 
-.input-password:focus {
+.input:focus {
     outline: none;
 }

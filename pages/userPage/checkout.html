@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./user.css">
+    <title>Tiket-Kereta</title>
+</head>
+
+<body>
+    <div class="user-main-wrapper">
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#">TIKET KERETA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./cari-tiket.html">Tiket Kereta</a>
+                    <a class="nav-link" href="#">My Booking</a>
+                </div>
+                <ul class="navbar-nav ml-auto navbar-right-top">
+                    <li class="nav-item dropdown nav-user">
+                        <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <img src="../../assets/images/avatar_admin.png" alt="" class="user-avatar-md rounded-circle"
+                                width="40" height="40"></a>
+                        <div class="dropdown-menu dropdown-menu-right nav-user-dropdown"
+                            aria-labelledby="navbarDropdownMenuLink2">
+                            <a class="dropdown-item" href="#" id="logoutBtn"><i
+                                    class="fas fa-power-off mr-2"></i>Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End Nav -->
+
+        <!-- CheckoutWrapper -->
+        <div class="checkout-wrapper">
+            <div class="container mt-5">
+                <div class="navigation-btn mb-5">
+                    <a href="./list-tiket.html" class="btn btn-secondary"><i class="fa fa-arrow-left"></i> Kembali</a>
+                </div>
+                <form action="">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card mb-2">
+                            <div class="card-header" id="headingOne">
+                              <h2 class="mb-0">
+                                <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <strong>Bank Mandiri</strong>
+                                </button>
+                              </h2>
+                            </div>
+                        
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  <span class="step-checkout" id="checkout-bank-mandiri">
+                                    <h5>Melalui Virtual Account</h5>
+                                    <p  class="noRek" id="rek-mandiri">123 08123456789</p>
+                                        <ol>
+                                            <li>  <span class="gray-text">Log in ke mBanking Anda. Pilih </span> Bayar. <span class="gray-text">Kemudian pilih</span> Multipayment</li>
+                                            <li><span class="gray-text">Pilih</span> Penyedia Layanan: Tiket-Kereta <span class="gray-text">dan masukkan </span> nomor Virtual Account
+                                              <span style="color: #f8b500;">123 08123456789</span> , <span class="gray-text">kemudian pilih</span> Lanjut</li>
+                                            <li><span class="gray-text">
+                                              Periksa informasi yang tertera di layar. Pastikan Merchant adalah</span> 
+                                              Tiket-Kereta. Total Tagihan <span class="gray-text">sudah benar dan username kamu</span> jhoncenna.
+                                              <span class="gray-text">Jika benar, masukkan PIN anda dan pilih</span> OK.
+                                            </li>
+                                        </ol>
+                                  </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header" id="headingTwo">
+                              <h2 class="mb-0">
+                                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  <strong>Bank BCA</strong>
+                                </button>
+                              </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                              <div class="card-body">
+                                Some placeholder content for the second accordion panel. This panel is hidden by default.
+                              </div>
+                            </div>
+                          </div>
+                        
+                        
+                      </div>
+                </form>
+            </div>
+        </div>
+
+        <footer class="footer fixed-bottom">Hallo</footer>
+        <!-- End Checkout-->
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
